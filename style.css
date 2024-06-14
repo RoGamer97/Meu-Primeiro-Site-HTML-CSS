@@ -1,0 +1,322 @@
+@font-face
+{
+  font-family: 'Prostir sans Display Heavy'; src: url("kobuzan-prostir-sans-display-heavy.otf");
+}
+
+body
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin:0px;
+  padding:0px;
+  background: rgb(59,59,59);
+  background: linear-gradient(0deg, rgba(59,59,59,1) 0%, rgba(59,59,59,1) 0%, rgba(177,175,175,1) 31%, rgba(93,93,93,1) 74%);
+}
+
+header
+{
+  height:300px;
+  font-family: 'Prostir sans Display Heavy';
+  background: rgb(59,59,59);
+  background: linear-gradient(90deg, rgba(59,59,59,1) 0%, rgba(32,32,32,1) 0%, rgba(119,119,119,1) 41%, rgba(129,129,129,1) 48%, rgba(116,116,116,1) 56%, rgba(17,17,17,1) 100%);
+}
+
+nav li
+{
+  display:inline-block;
+  margin-right:70px;
+}
+
+footer
+{
+  font-family: 'Prostir sans Display Heavy';
+  background: rgb(94,94,94);
+  background: radial-gradient(circle, rgba(94,94,94,1) 0%, rgba(79,79,79,1) 49%, rgba(119,119,119,1) 100%);
+  color:#ebebeb;
+  padding:3px;
+  text-align:center;
+}
+
+.bigtext
+{
+  font-size: 25px;
+}
+
+.sinopse
+{
+  border-color: #bababa;
+  margin: 15px;
+  border-style:double;
+  border-radius: 50px;
+  background: rgb(59,59,59);
+  background: radial-gradient(circle, rgba(59,59,59,1) 0%, rgba(89,89,89,1) 0%, rgba(60,60,60,1) 48%, rgba(59,59,59,1) 100%);
+  padding:10px;
+  color:#ebebeb;
+}
+
+.consertamos
+{
+  margin: 15px;
+  border-style:double;
+  background: rgb(59,59,59);
+  background: radial-gradient(circle, rgba(59,59,59,1) 0%, rgba(92,134,92,1) 0%, rgba(96,110,96,1) 100%);
+  border-radius: 30px;
+  padding:10px;
+  color:#85ff8d;
+  text-shadow: 1px 1px 2px #009926, 0 0 1em #44ff00, 0 0 0.2em #0d3d00;
+}
+
+nav a
+{
+  text-decoration:none; 
+  color:#212121;
+}
+
+nav a:hover
+{
+  text-shadow: #292929 1px 0 10px;
+  color:#0d0d0d;
+}
+
+
+
+.orçamento
+{
+  transition:transform 0.23s;
+  font-family: 'Prostir sans Display Heavy';
+  width:220px;
+  height:40px;
+  border-radius:20px;
+  background: rgb(212,223,238);
+  background: radial-gradient(circle, rgba(212,223,238,1) 0%, rgba(108,112,116,1) 100%);
+}
+
+.orçamento:hover
+{
+  transform:scale(1.1)
+}
+
+.assistencia
+{
+  transition:transform 0.23s;
+  font-family: 'Prostir sans Display Heavy';
+  width:220px;
+  height:60px;
+  border-radius:20px;
+  background: rgb(212,216,238);
+  background: radial-gradient(circle, rgba(212,216,238,1) 0%, rgba(108,112,116,1) 100%);
+}
+
+.assistencia:hover
+{
+  transform:scale(1.1)
+}
+
+.kioskdevkit
+{
+  font-family: 'Prostir sans Display Heavy';
+  color:#ff0000;
+  text-shadow: 1px 1px 2px red, 0 0 1em #8f0000, 0 0 0.2em #6b0000;
+}
+
+.nintendo
+{
+  transition:transform 0.4s;
+  animation-duration:2s;
+  animation-iteration-count:1;
+}
+
+.nintendo:hover
+{
+  transform:translateY(-5px);
+}
+
+.sony
+{
+  transition:transform 0.4s
+}
+
+.sony:hover
+{
+  transform:translateY(-5px);
+}
+
+.microsoft
+{
+  transition:transform 0.4s
+}
+
+.microsoft:hover
+{
+  transform:translateY(-5px);
+}
+.wii 
+{
+  transition:transform 0.4s
+}
+
+.wii:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.n3ds 
+{
+  transition:transform 0.4s
+}
+
+.n3ds:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+.n3ds 
+{
+  transition:transform 0.4s
+}
+
+.n3ds:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.wiiu 
+{
+  transition:transform 0.4s
+}
+
+.wiiu:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.switch 
+{
+  transition:transform 0.4s
+}
+
+.switch:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.ps2 
+{
+  transition:transform 0.4s
+}
+
+.ps2:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.ps3 
+{
+  transition:transform 0.4s
+}
+
+.ps3:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.ps4
+{
+  transition:transform 0.4s
+}
+
+.ps4:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.ps5
+{
+  transition:transform 0.4s
+}
+
+.ps5:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.xbox360
+{
+  transition:transform 0.4s
+}
+
+.xbox360:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.xboxone
+{
+  transition:transform 0.4s
+}
+
+.xboxone:hover 
+{
+  transform:scale(1.2) rotate(1deg);
+}
+
+.concluir
+{
+  color:#212121;
+  transition:transform 0.23s;
+  font-family: 'Prostir sans Display Heavy';
+  width:220px;
+  height:40px;
+  border-radius:20px;
+  background: rgb(212,216,238);
+  background: radial-gradient(circle, rgba(212,216,238,1) 0%, rgba(108,112,116,1) 100%);
+}
+
+select
+{
+  background: rgb(59,59,59);
+  background: radial-gradient(circle, rgba(108,112,116,1) 0%, rgba(243,255,254,1) 0%, rgba(173,176,176,1) 100%);
+}
+
+input
+{
+  background: rgb(59,59,59);
+  background: radial-gradient(circle, rgba(59,59,59,1) 0%, rgba(243,255,254,1) 0%, rgba(173,176,176,1) 100%);
+}
+
+textarea
+{
+  background: rgb(59,59,59);
+  background: radial-gradient(circle, rgba(59,59,59,1) 0%, rgba(243,255,254,1) 0%, rgba(173,176,176,1) 100%);
+}
+
+.concluir:hover
+{
+  text-shadow: #292929 1px 0 10px;
+  color:#0d0d0d;
+  transform:scale(1.1)
+}
+
+@media(max-width:600px)
+{
+
+header
+{
+  padding:50px;
+}
+
+nav ul
+{
+  display:block;
+  text-align:center;
+}
+
+nav li
+{
+  display:block;
+  margin-right: 5px 0px;
+}
+
+footer
+{
+  padding:5px; 
+}
+}
